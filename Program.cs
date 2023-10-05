@@ -1,4 +1,4 @@
-﻿namespace HashTable_and_BST_Problems
+namespace HashTable_and_BST_Problems
 {
     internal class Program
     {
@@ -15,7 +15,7 @@
                 hashTable1.Insert(word);
             }
             Console.WriteLine("Frequency of 'be': " + hashTable1.GetFrequency("be"));
-
+ 
             // Use Case 2
             string paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
             string[] words2 = paragraph.Split(' ');
